@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "666443570269",
+    "firebase_url": "https://mitecse8.firebaseio.com",
+    "project_id": "mitecse8",
+    "storage_bucket": "mitecse8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666443570269:android:39259bc97c3965446241b4",
+        "android_client_info": {
+          "package_name": "com.example.mitecse8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666443570269-8n8i6ur5ldfjsuat6bupvquj8e2lpek2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mitecse8",
+            "certificate_hash": "0b9f5bb8154ed247a07a2b370b3e45ed89390933"
+          }
+        },
+        {
+          "client_id": "666443570269-5fhg956shn3ucvvhpmp9gd4stdtaa63n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIXhd7V839q6fuhj_T-WqjjD_OvZOBUAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666443570269-5fhg956shn3ucvvhpmp9gd4stdtaa63n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
