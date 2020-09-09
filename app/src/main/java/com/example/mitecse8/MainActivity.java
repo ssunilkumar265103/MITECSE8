@@ -22,11 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("message");
-        myRef.setValue("Hello World");
+        myRef.setValue("Hello World 1");
+        myRef.child("name").setValue("kumar");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String value = dataSnapshot.getValue(String.class);
+                String value = dataSnapshot.child("name").getValue(String.class);
                 Toast.makeText(MainActivity.this,value,Toast.LENGTH_LONG).show();
             }
 
